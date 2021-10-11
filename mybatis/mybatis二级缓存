@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-11T07:39:54.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="8Y-7OywjSahENBb3HS-C" version="15.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-11T13:43:18.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="u2t24TpAyyOcib5jRf6p" version="15.5.0" type="github" pages="2">
   <diagram id="VUO1IO8Q2ilOhWvLyYwF" name="第 1 页">
     <mxGraphModel dx="1865" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -125,9 +125,6 @@
         </mxCell>
         <mxCell id="bpbHBmU1dqSArpP-YLf3-7" value="使用SqlSession查询数据" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="flyfPluk8IYWbPsxyy9H-1" vertex="1">
           <mxGeometry x="1380" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bpbHBmU1dqSArpP-YLf3-10" value="1、创建的是实现类DefaultSqlSession&lt;br&gt;2、DefaultSqlSession中保存着Configuration&lt;br&gt;3、Configuration中保存着MapperStatements对象&lt;br&gt;4、MapperStatement对象中保存着Cache对象" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];rounded=0;sketch=0;fontFamily=Verdana;" parent="flyfPluk8IYWbPsxyy9H-1" vertex="1">
-          <mxGeometry x="-300" y="590" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bpbHBmU1dqSArpP-YLf3-11" value="解析配置文件SqlSessionFactoryBuilder" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="flyfPluk8IYWbPsxyy9H-1" vertex="1">
           <mxGeometry x="210" y="50" width="140" height="60" as="geometry" />
