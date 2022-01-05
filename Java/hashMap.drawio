@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T10:43:13.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="mohsoC_7o-ikvmdcLzLu" version="16.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-05T10:44:49.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="-X_KuqTSVQ8AYiiyIkVp" version="16.2.1" type="github">
   <diagram id="LDN4kRDbuYGVZ3FLL6nX" name="第 1 页">
     <mxGraphModel dx="2125" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,6 +72,9 @@
         </mxCell>
         <mxCell id="U5Z04WTkSFPaZyKr4ec7-16" value="存在其他构造方式初始化，本质目的是为了初始化hashmap中的相关变量，比如加载因子、容量大小等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FCFCFC;fontFamily=Verdana;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="250" y="920" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U5Z04WTkSFPaZyKr4ec7-17" value="hashmap放数据" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FCFCFC;fontFamily=Verdana;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="990" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
