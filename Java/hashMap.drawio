@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T08:31:23.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="BXq87lfq3uQbZPTXGMrZ" version="16.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-05T09:51:37.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="8nesXqp4E-zeNZwGAChg" version="16.2.1" type="github">
   <diagram id="LDN4kRDbuYGVZ3FLL6nX" name="第 1 页">
-    <mxGraphModel dx="1038" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2048" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,14 +31,23 @@
             <mxPoint x="688" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rr6FPmNwq4bUay-tGT4d-15" value="顶层接口&lt;br&gt;内部接口类：&lt;font color=&quot;#ff4545&quot;&gt;interface Entry&amp;lt;K,V&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FCFCFC;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="304" y="240" width="250" height="80" as="geometry" />
+        <mxCell id="rr6FPmNwq4bUay-tGT4d-15" value="顶层接口&lt;br&gt;内部接口类：&lt;font color=&quot;#ff4545&quot;&gt;interface Entry&amp;lt;K,V&amp;gt;&lt;/font&gt;&lt;br&gt;接口：Set&amp;lt;Map.Entry&amp;lt;K, V&amp;gt;&amp;gt; entrySet()&lt;br&gt;接口：Collection&amp;lt;V&amp;gt; values();&lt;br&gt;接口：Set&amp;lt;K&amp;gt; keySet();" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FCFCFC;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="186" y="170" width="464" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="rr6FPmNwq4bUay-tGT4d-16" value="初步实现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FCFCFC;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="644" y="505" width="60" height="30" as="geometry" />
+        <mxCell id="rr6FPmNwq4bUay-tGT4d-16" value="初步实现&lt;br&gt;接口实现：Set&amp;lt;Map.Entry&amp;lt;K, V&amp;gt;&amp;gt; entrySet();提供迭代器遍历&lt;br&gt;接口实现：Collection&amp;lt;V&amp;gt; values();提供迭代器遍历&lt;br&gt;接口没有做实现：Set&amp;lt;K&amp;gt; keySet();" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FCFCFC;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="630" y="505" width="395" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rr6FPmNwq4bUay-tGT4d-17" value="具体实现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FCFCFC;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="124" y="505" width="60" height="30" as="geometry" />
+        <mxCell id="rr6FPmNwq4bUay-tGT4d-17" value="具体实现&lt;br&gt;内部类：Node&amp;lt;K,V&amp;gt;&lt;br&gt;内部类：TreeNode&amp;lt;K,V&amp;gt;&lt;br&gt;接口实现：put(K key, V value)&lt;br&gt;接口实现：get(Object key)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FCFCFC;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="505" width="264" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U5Z04WTkSFPaZyKr4ec7-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontColor=#000000;" edge="1" parent="1" source="U5Z04WTkSFPaZyKr4ec7-2" target="U5Z04WTkSFPaZyKr4ec7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U5Z04WTkSFPaZyKr4ec7-2" value="为啥要继承抽象类，然后实现接口?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FCFCFC;fontFamily=Verdana;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="570" width="118" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U5Z04WTkSFPaZyKr4ec7-3" value="继承AbstractMap是为了把一些简单的实现交给父类，实现Map接口是为了实现父类没有实现的方法，如果有需要重写父类方法。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FCFCFC;fontFamily=Verdana;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="318.5" y="670" width="201" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
